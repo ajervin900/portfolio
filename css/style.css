@@ -1,0 +1,123 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6 p, ul, li, figure {
+   margin: 0;
+   padding: 0;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+* {
+   box-sizing: border-box;
+   font-family: "Roboto", serif;
+}
+
+.container {
+   width: 80%;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+/* For Debugging Purposes */
+.d {
+   border: 1px solid rebeccapurple;
+}
+
+/* Header */
+.header {
+   padding: 20px 0;
+   margin-bottom: 20px;
+}
+
+.header .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header .logo {
+   font-size: 30px;
+}
+
+.header .nav-items-container {
+   display: flex;
+   column-gap: 20px;
+}
+
+.header .nav-item {
+   font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+   margin-bottom: 20px;
+}
+
+.hero .container {
+   display: flex;
+   justify-content: space-between;
+}
+
+.hero .title {
+   font-size: 32px;
+   margin-bottom: 20px;
+}
+
+.hero .text {
+   line-height: 2;
+   font-weight: 400;
+}
+
+.hero .content-right {
+   padding-left: 40px;
+   padding-top: 10px;
+}
+
+.hero .portfolio-image {
+   border-radius: 12px;
+}
+
+
+/* Project Section */
+.projects {
+   margin-bottom: 20px;
+}
+
+.projects .container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 20px;
+}
+
+.projects .project-item {
+   border: 1px solid #ccc;
+   height: 250px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.projects .project-title {
+   margin-bottom: 10px;
+}
+
+.projects .project-text {
+   font-weight: 400;
+}
+
+
+/* Footer */
+.footer {
+   padding: 20px 0;
+}
+.footer .copy-right {
+   text-align: center;
+   font-weight: 500;
+}
+
